@@ -8,7 +8,6 @@
 </head>
 <body>
 
-  <!-- ================= BACKGROUND SKY ================= -->
   <div class="sky" aria-hidden="true">
     <div class="stars-layer stars-far"></div>
     <div class="stars-layer stars-near"></div>
@@ -53,13 +52,12 @@
 
     <div class="rain" id="rain" aria-hidden="true"></div>
 
-    <!-- Memory stars (hand placed) -->
+    <!-- Memory stars -->
     <div class="memory-stars" id="memoryStars" aria-hidden="true">
-      <!-- populated by JS for consistent positioning + easy editing -->
     </div>
   </div>
 
-  <!-- ================= INTRO SCREEN ================= -->
+  
   <section class="intro" id="intro">
     <p class="intro-eyebrow">a little world for a tiny baby <3</p>
     <h1 class="intro-title">
@@ -75,17 +73,17 @@
     </button>
   </section>
 
-  <!-- ================= HINT TEXT (after intro) ================= -->
+ 
   <div class="sky-hint" id="skyHint" aria-live="polite">
     <p>eight stars for you, click each one my love</p>
   </div>
 
-  <!-- ================= MOON UNLOCK MESSAGE ================= -->
+ 
   <div class="moon-message" id="moonMessage" aria-live="polite">
     <p>one last thing&hellip;</p>
   </div>
 
-  <!-- ================= MEMORY POPUP ================= -->
+  
   <div class="popup-overlay" id="popupOverlay">
     <div class="popup-card" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
       <button class="popup-close" id="popupClose" aria-label="Close">
@@ -94,7 +92,6 @@
       <p class="popup-eyebrow" id="popupEyebrow">memory</p>
       <h2 class="popup-title" id="popupTitle">Title</h2>
       <div class="popup-image" id="popupImage">
-        <!-- REPLACE: swap the background-image in style.css or set inline style via JS (see script.js MEMORY_DATA) -->
         <span class="popup-image-label">photo1.jpg</span>
       </div>
       <p class="popup-text" id="popupText">
@@ -103,7 +100,7 @@
     </div>
   </div>
 
-  <!-- ================= LETTER PANEL ================= -->
+ 
   <div class="letter-overlay" id="letterOverlay">
     <div class="letter-card" role="dialog" aria-modal="true" aria-labelledby="letterTitle">
       <button class="popup-close" id="letterClose" aria-label="Close letter">
@@ -112,7 +109,7 @@
       <p class="letter-eyebrow">for my Kattie</p>
       <h2 class="letter-title" id="letterTitle">A letter, under the moon</h2>
       <div class="letter-body">
-        <!-- REPLACE: this is placeholder letter text -->
+       
         <p>HAPPY BIRTHDAY MY DEAR BABY.
           it's super super crazy to think that today isn't just another day. today is the day the universe got the babiest baby. eighteen years ago there was just... suddenly another heartbeat somewhere on this planet, and neither of us knew that years later it'd become the heartbeat i listen for in everything. sometimes i wonder how different my life would've been if today never happened. if you were never born. i would've still looked at the stars, but they would've felt emptier. i'd still listen to music, but none of it would've reminded me of anyone. rainy nights would've just been rainy nights. i'd have lived my life without ever knowing there was someone out there who fit my heart this perfectly.
         you existed long before i knew you did, but somehow my life was always leading me towards you. you've had birthdays before i ever met you. people celebrated you before i even knew your name. and that thought always makes me smile. because somewhere out there was this little girl growing up, laughing, learning, becoming you, completely unaware that years later she'd completely change some random boy's life.
@@ -132,7 +129,7 @@
     </div>
   </div>
 
-  <!-- ================= MUSIC CONTROL ================= -->
+ 
   <button class="music-toggle" id="musicToggle" type="button" aria-label="Play music" aria-pressed="false">
     <svg class="icon-note" viewBox="0 0 24 24" width="18" height="18">
       <path d="M9 18V5l10-2v13" />
@@ -146,7 +143,7 @@
       <line x1="3" y1="3" x2="21" y2="21" />
     </svg>
   </button>
-  <!-- REPLACE: music.mp3 with your own file in the same folder -->
+ 
   <audio id="bgMusic" src="music.mp3" loop preload="none"></audio>
 
   <script src="script.js"></script>
