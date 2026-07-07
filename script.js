@@ -1,17 +1,5 @@
-/* =========================================================
-   KITKAT'S BIRTHDAY — script.js
-   Clean, commented, no build tools required.
-   ========================================================= */
-
 (function () {
   'use strict';
-
-  /* ---------------------------------------------------------
-     1. HAND-PLACED MEMORY STARS
-     Position each star with top/left percentages so it lands
-     in a spot that won't collide with the moon or the text.
-     REPLACE the "text" and "image" fields with your own content.
-     --------------------------------------------------------- */
   const MEMORY_DATA = [
     {
       id: 'first-impression',
@@ -129,10 +117,6 @@
   const TOTAL_STARS = MEMORY_DATA.length;
   let exploredCount = 0;
   const exploredSet = new Set();
-
-  /* ---------------------------------------------------------
-     2. DOM REFERENCES
-     --------------------------------------------------------- */
   const intro = document.getElementById('intro');
   const lookUpBtn = document.getElementById('lookUpBtn');
   const skyHint = document.getElementById('skyHint');
@@ -157,9 +141,6 @@
   let activeStarId = null;
   let musicStarted = false;
 
-  /* ---------------------------------------------------------
-     3. RAIN — generate diagonal drops with varying speed
-     --------------------------------------------------------- */
   function buildRain() {
     const dropCount = window.innerWidth < 640 ? 45 : 80;
     const fragment = document.createDocumentFragment();
@@ -168,7 +149,7 @@
       const drop = document.createElement('div');
       drop.className = 'raindrop';
 
-      const startLeft = Math.random() * 110 - 5; // allow slight overflow for diagonal fall
+      const startLeft = Math.random() * 110 - 5; // allow overflow for diag fall
       const height = 40 + Math.random() * 70;
       const duration = 0.6 + Math.random() * 0.9;
       const delay = Math.random() * 2;
@@ -186,9 +167,7 @@
     rainContainer.appendChild(fragment);
   }
 
-  /* ---------------------------------------------------------
-     4. MEMORY STARS — render from data
-     --------------------------------------------------------- */
+
   function buildMemoryStars() {
     const fragment = document.createDocumentFragment();
 
@@ -214,9 +193,7 @@
     memoryStarsContainer.appendChild(fragment);
   }
 
-  /* ---------------------------------------------------------
-     5. INTRO -> "Look Up" transition
-     --------------------------------------------------------- */
+
   function handleLookUp() {
     intro.classList.add('hidden');
 
@@ -232,9 +209,6 @@
     startMusic();
   }
 
-  /* ---------------------------------------------------------
-     6. MEMORY POPUP LOGIC
-     --------------------------------------------------------- */
   function openMemory(star) {
     activeStarId = star.id;
 
@@ -264,9 +238,6 @@
     activeStarId = null;
   }
 
-  /* ---------------------------------------------------------
-     7. MOON UNLOCK + LETTER
-     --------------------------------------------------------- */
   function unlockMoon() {
     moon.classList.add('unlocked');
     moon.disabled = false;
@@ -286,9 +257,6 @@
     letterOverlay.classList.remove('open');
   }
 
-  /* ---------------------------------------------------------
-     8. SHOOTING STAR — every 15-30 seconds
-     --------------------------------------------------------- */
   function scheduleShootingStar() {
     const delay = 15000 + Math.random() * 15000;
     setTimeout(() => {
@@ -301,9 +269,6 @@
     }, delay);
   }
 
-  /* ---------------------------------------------------------
-     9. MUSIC — begins after first user interaction, never autoplay
-     --------------------------------------------------------- */
   function startMusic() {
     if (musicStarted) return;
     musicStarted = true;
@@ -313,8 +278,6 @@
 
     if (playPromise && playPromise.catch) {
       playPromise.catch(() => {
-        /* Autoplay was blocked by the browser; the mute button
-           still lets the user start it manually. */
       });
     }
 
@@ -337,10 +300,7 @@
       musicToggle.setAttribute('aria-label', 'Play music');
     }
   }
-
-  /* ---------------------------------------------------------
-     10. EVENT WIRING
-     --------------------------------------------------------- */
+ 
   lookUpBtn.addEventListener('click', handleLookUp);
 
   popupClose.addEventListener('click', closeMemory);
@@ -362,10 +322,6 @@
     if (popupOverlay.classList.contains('open')) closeMemory();
     if (letterOverlay.classList.contains('open')) closeLetter();
   });
-
-  /* ---------------------------------------------------------
-     11. INIT
-     --------------------------------------------------------- */
   buildRain();
   buildMemoryStars();
   scheduleShootingStar();
