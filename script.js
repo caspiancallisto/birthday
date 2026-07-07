@@ -62,8 +62,15 @@
       id: 'photos',
       title: 'your meanie',
       top: '58%', left: '82%',
-      text: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.',
-      image: 'photo4.jpg'
+      text: `Through "baby you hate me," said with little smiles,
+      Through every "what if..." sent at half past two.
+      Through playful fights that lasted just a while,
+      Before an "i love you" came shining through.
+      Through every tiny sulk and fake complaint,
+      Through every punch that Minecraft knew.
+      Our love was never written just in words,
+      It smiled between the things we never knew.`,
+      image: 'https://cdn.discordapp.com/attachments/1184777724791894029/1524106611239420004/IMG_20260707_192950.jpg?ex=6a4e8a64&is=6a4d38e4&hm=18f721a435ba823ed16292bece6b3faea9c3a91c366f723fb8758730a8f74649&'
     },
     {
       id: 'playlist',
@@ -84,8 +91,15 @@
       id: 'funny-moments',
       title: 'tiny moments',
       top: '20%', left: '46%',
-      text: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci.',
-      image: 'photo6.jpg'
+      text: `In random "i love you"s without a plan,
+      In doodled hearts and thoughts sent carelessly.
+      Somehow the ordinary learned to shine,
+      Because each little moment held you and me.
+      We'd tell each other, "sleep," then stay instead,
+      With tired eyes and hearts that still felt new.
+      I found forever in those tiny hours,
+      Where every ordinary thing was you.`,
+      image: 'https://cdn.discordapp.com/attachments/1184777724791894029/1524107220407681194/IMG-20260626-WA0047.jpg?ex=6a4e8af5&is=6a4d3975&hm=e2c2915521b36def1e1b5b9a5ef30ddfb39cbea954be5679008f46351c742b61&'
     },
     {
       id: 'future',
@@ -106,8 +120,8 @@
       title: 'big secret',
       top: '40%', left: '92%',
       text: `i have all your nakey picture.
-         and also that i really do love you`,
-      image: 'https://cdn.discordapp.com/attachments/1184777724791894029/1524104286366339202/b9a2f38b562f3d6b5cab4e1b3be16a1d.webp.jpg?ex=6a4e883a&is=6a4d36ba&hm=cb57d47e61b2949d865c99e9a118f2dc474bd412db3ec0c6344e9e8354a397d1&'
+         and also that i really do love you >:c`,
+      image: 'https://cdn.discordapp.com/attachments/1184777724791894029/1524106611608649788/IMG_20260707_193055.jpg?ex=6a4e8a64&is=6a4d38e4&hm=8f9698d661ea6a952a65e4ec788a1f7f7d93248e86a888dba8513da182972808&'
     }
   ];
 
