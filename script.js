@@ -69,8 +69,16 @@
       id: 'playlist',
       title: 'our songs <3',
       top: '68%', left: '10%',
-      text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
-      image: 'photo5.jpg'
+      text: `Every song has learnt your name,
+      Though none of them were written so.
+      Somehow they found a way to keep
+      The feelings only we could know.
+      
+      Now love's no longer just a word,
+      Or something written high above.
+      Whenever someone speaks of "love,"
+      Somehow, they always speak of us..`,
+      image: 'https://cdn.discordapp.com/attachments/1184777724791894029/1524076321087553656/fb61bf8fb018f6677f5ca71d7c9736f2.jpg?ex=6a4e6e2e&is=6a4d1cae&hm=a0acc0a8608062fae3d87227aaa79f7b048544f78e8dc2cfbb6b27492e46d40b'
     },
     {
       id: 'funny-moments',
