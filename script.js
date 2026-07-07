@@ -91,15 +91,23 @@
       id: 'future',
       title: 'someday..',
       top: '72%', left: '55%',
-      text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.',
-      image: 'photo7.jpg'
+      text: `I dream of days that softly fade to night,
+      With weathered hands still reaching out for you.
+      Through every season, every wrong and right,
+      My heart would still begin and end with you.
+      Let birthdays come, let countless years depart,
+      Let time rewrite the skies to different blue.
+      If life is measured by the love we keep,
+      Then mine was always meant to be with you.`,
+      image: 'https://cdn.discordapp.com/attachments/1344710164082856052/1414575813126262815/DEB0F4D5-EA58-4765-9733-FB1F32A56553.jpg?ex=6a4e36e3&is=6a4ce563&hm=cecb8bb9751905797b1c34899078d86fe4704985db7fd14844a697a83e6dcbd0&'
     },
     {
       id: 'secret',
       title: 'big secret',
       top: '40%', left: '92%',
-      text: 'Et harum quidem rerum facilis est et expedita distinctio nam libero tempore.',
-      image: 'photo8.jpg'
+      text: `i have all your nakey picture.
+         and also that i really do love you`,
+      image: 'https://cdn.discordapp.com/attachments/1184777724791894029/1524104286366339202/b9a2f38b562f3d6b5cab4e1b3be16a1d.webp.jpg?ex=6a4e883a&is=6a4d36ba&hm=cb57d47e61b2949d865c99e9a118f2dc474bd412db3ec0c6344e9e8354a397d1&'
     }
   ];
 
