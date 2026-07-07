@@ -31,9 +31,18 @@
         <g class="moon-features">
           <path class="moon-eye" d="M 36 50 Q 40 46 44 50" />
           <path class="moon-eye" d="M 56 50 Q 60 46 64 50" />
-          <path class="moon-mouth" d="M 44 60 Q 50 65 56 60" />
+          <path class="moon-nose" d="M 47 56 L 53 56 L 50 59.5 Z" />
+          <path class="moon-mouth" d="M 50 59.5 Q 50 62 45 63.5" />
+          <path class="moon-mouth" d="M 50 59.5 Q 50 62 55 63.5" />
           <ellipse class="moon-blush" cx="33" cy="57" rx="4" ry="2.4" />
           <ellipse class="moon-blush" cx="67" cy="57" rx="4" ry="2.4" />
+          <!-- whiskers -->
+          <g class="moon-whiskers">
+            <line x1="30" y1="54" x2="12" y2="51" />
+            <line x1="30" y1="58" x2="12" y2="59" />
+            <line x1="70" y1="54" x2="88" y2="51" />
+            <line x1="70" y1="58" x2="88" y2="59" />
+          </g>
         </g>
       </svg>
     </button>
@@ -50,14 +59,14 @@
 
   <!-- ================= INTRO SCREEN ================= -->
   <section class="intro" id="intro">
-    <p class="intro-eyebrow">a little world for a tiny baby <3</p>
+    <p class="intro-eyebrow">a little world, for you</p>
     <h1 class="intro-title">
       Happy Birthday,<br />
-      <span class="intro-name">my KitKat.</span>
+      <span class="intro-name">KitKat.</span>
     </h1>
     <p class="intro-sub">
-      you're the biggest gift in my life.<br />
-      i hope we look up to the same night sky forever <33
+      Some birthdays are celebrated with gifts.<br />
+      I wanted to build you a little place instead.
     </p>
     <button class="glass-button" id="lookUpBtn" type="button">
       <span>Look Up</span>
@@ -66,7 +75,7 @@
 
   <!-- ================= HINT TEXT (after intro) ================= -->
   <div class="sky-hint" id="skyHint" aria-live="polite">
-    <p>eight stars for you, click on each one my love</p>
+    <p>eight stars are waiting for you</p>
   </div>
 
   <!-- ================= MOON UNLOCK MESSAGE ================= -->
