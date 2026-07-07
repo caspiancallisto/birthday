@@ -23,7 +23,7 @@
       Decided I should find it all in you.
       
       No soul before had ever felt like home,
-      No name could quiet every fear I knew.
+      No voice could quiet every fear I knew.
       If hearts are constellations left to roam,
       Then every star has always led to you.`,
       image: 'https://cdn.discordapp.com/attachments/1184777724791894029/1524078518286422046/20260707_211339.jpg?ex=6a4e703a&is=6a4d1eba&hm=4a47f57126ccbcbf848930bb6f59afc606ac648a18eec9b6889fcb05cde40ca1'
@@ -113,7 +113,7 @@
       Let time rewrite the skies to different blue.
       If life is measured by the love we keep,
       Then mine was always meant to be with you.`,
-      image: 'https://cdn.discordapp.com/attachments/1344710164082856052/1414575813126262815/DEB0F4D5-EA58-4765-9733-FB1F32A56553.jpg?ex=6a4e36e3&is=6a4ce563&hm=cecb8bb9751905797b1c34899078d86fe4704985db7fd14844a697a83e6dcbd0&'
+      image: 'https://cdn.discordapp.com/attachments/1184777724791894029/1524111180522717284/IMG_20260707_232329.jpg?ex=6a4e8ea6&is=6a4d3d26&hm=e1d23c7c2576a8bb00a7f860811740db0092f761827282af87dff7ee4d04e8b1&'
     },
     {
       id: 'secret',
