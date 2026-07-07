@@ -85,7 +85,8 @@
       Or something written high above.
       Whenever someone speaks of "love,"
       Somehow, they always speak of us..`,
-      image: 'https://cdn.discordapp.com/attachments/1184777724791894029/1524076321087553656/fb61bf8fb018f6677f5ca71d7c9736f2.jpg?ex=6a4e6e2e&is=6a4d1cae&hm=a0acc0a8608062fae3d87227aaa79f7b048544f78e8dc2cfbb6b27492e46d40b'
+      image: 'https://cdn.discordapp.com/attachments/1184777724791894029/1524076321087553656/fb61bf8fb018f6677f5ca71d7c9736f2.jpg?ex=6a4e6e2e&is=6a4d1cae&hm=a0acc0a8608062fae3d87227aaa79f7b048544f78e8dc2cfbb6b27492e46d40b',
+      link: 'https://open.spotify.com/playlist/1m1lc1bG6ppzLa6e9A9emC?si=yL3kIcaeT1GVNV8YJRtX6A&utm_source=copy-link&pt=44d80fbdcdd324ff99f9e8fae018e371',
     },
     {
       id: 'funny-moments',
