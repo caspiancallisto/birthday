@@ -628,6 +628,7 @@ button {
   line-height: 1.75;
   color: var(--ink-soft);
   font-weight: 300;
+   white-space: pre-line;
 }
 
 .popup-close, .letter-overlay .popup-close {
