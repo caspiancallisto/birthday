@@ -15,56 +15,56 @@
   const MEMORY_DATA = [
     {
       id: 'first-impression',
-      title: 'First Impression',
+      title: 'my first love',
       top: '18%', left: '14%',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.',
       image: 'photo1.jpg'
     },
     {
       id: 'day-we-met',
-      title: 'The Day We Met',
+      title: 'the day we met',
       top: '30%', left: '76%',
       text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.',
       image: 'photo2.jpg'
     },
     {
       id: 'your-laugh',
-      title: 'Your Laugh',
+      title: 'our nights..',
       top: '46%', left: '20%',
       text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.',
       image: 'photo3.jpg'
     },
     {
       id: 'photos',
-      title: 'Photos',
+      title: 'your meanie',
       top: '58%', left: '82%',
       text: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.',
       image: 'photo4.jpg'
     },
     {
       id: 'playlist',
-      title: 'Playlist',
+      title: 'our songs <3',
       top: '68%', left: '10%',
       text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
       image: 'photo5.jpg'
     },
     {
       id: 'funny-moments',
-      title: 'Funny Moments',
+      title: 'tiny moments',
       top: '20%', left: '46%',
       text: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur adipisci.',
       image: 'photo6.jpg'
     },
     {
       id: 'future',
-      title: 'Future',
+      title: 'someday..',
       top: '72%', left: '55%',
       text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.',
       image: 'photo7.jpg'
     },
     {
       id: 'secret',
-      title: 'Secret',
+      title: 'big secret',
       top: '40%', left: '92%',
       text: 'Et harum quidem rerum facilis est et expedita distinctio nam libero tempore.',
       image: 'photo8.jpg'
